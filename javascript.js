@@ -29,7 +29,7 @@ function playGame() {
             return scissors;
         } else {
             alert("Invalid Choice! Please choose between rock, paper, and scissors.");
-            return getHumanChoice(); // Retry on invalid input
+            return getHumanChoice();
         }
     }
 
